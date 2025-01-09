@@ -1,0 +1,96 @@
+.footer-cls {
+    background: #02126a;
+    padding: 40px;
+    position: relative;
+}
+
+.footer-cls img {
+    height: 75px;
+    margin-bottom: 10px;
+}
+
+.align-contct {
+    padding: 10px 0;
+    color: #fff;
+    border-bottom: 1px solid #01199b;
+}
+
+.align-contct span {
+    color: #fff !important;
+}
+
+.rght-cont-foot {font-family: 'Ruda', sans-serif;font-size: 13px;line-height: 27px;}
+
+.lft-cont-foot, .rght-cont-foot {
+    display: inline-block;
+}
+
+.lft-cont-foot {
+    float: left;
+    margin-top: 10px;
+    margin-right: 17px;
+}
+
+.lft-cont-foot svg {
+    color: #feb423;
+}
+
+.lft-cont-foot svg {
+    color: #feb423;
+}
+
+.col.quick-link, .services-link {
+    font-family: 'Ruda', sans-serif;
+    color: #fff;
+    padding-left: 5%;
+}
+
+.col.quick-link h3, .services-link h3 {font-weight: 600;font-size: 20px;}
+
+.foot-quick-links.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Ruda', sans-serif;
+    display: block;
+    width: 90%;
+    padding: 5px 0;
+    font-weight: 500;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    position: relative;
+    top: 5px;   
+}
+
+.col.services-link a {
+    width: 90% !important;
+}
+
+.path-img {
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    -webkit-animation: move 1s infinite alternate;
+    animation: move 1s infinite alternate;
+    animation: bounce 1s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+    left: auto;
+    right: 40px;
+    height: 100px;
+}
+
+.col.services-link {
+    position: relative;
+    z-index: 99999;
+}
+  
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 50px, 0);
+    }
+}

@@ -1,0 +1,17 @@
+.container{max-width: 1170px !important;}
+
+[data-theme="light"]{
+   --bg-color: #fff;
+   --text-color: #212529;
+   --main-head: #02126a;
+   --sub-head: #feb423;
+   --icon-color: #feb423;
+}
+
+[data-theme="dark"]{
+    --bg-color: #000;
+    --text-color: #fff;
+    --main-head: #fff;
+    --sub-head: #feb423;
+    --icon-color: #feb423;
+ }

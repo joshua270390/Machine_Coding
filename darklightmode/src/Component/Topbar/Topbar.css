@@ -1,0 +1,27 @@
+.topbat-cls {
+    background: #02126a;
+}
+
+.topbat-cls span {
+    color: #fff;
+    font-family: 'Ruda', sans-serif;
+    font-size: 15px;
+    padding: 8px 10px !important;
+    display: inline-block;
+}
+
+.col.social-icons a {
+    display: inline-block;
+    color: #fff;
+    padding: 6px 10px;
+    border-left: 1px solid;
+    border-right: 1px solid #fff;
+}
+
+.col.social-icons a:first-child {
+    border-right: none;
+}
+
+.col.head-cont {
+    text-align: right;
+}

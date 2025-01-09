@@ -1,0 +1,66 @@
+.memory-game-grid {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 300px */
+}
+
+.game-board {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.card-dimension {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.grid-size-class {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.grid-size-class input {
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.playagain-reset-class {
+  margin-top: 10px;
+}
+
+.playagain-reset-class button {
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: none;
+  background: #061c87;
+  color: #fff;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 27px;
+  font-weight: 700;
+  color: #04cb04;
+}
+
+.outer-grid-size-class {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.outer-grid-size-class span {
+  font-weight: 600;
+}

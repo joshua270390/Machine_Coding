@@ -1,0 +1,87 @@
+.multi-search-slect-box {
+  max-width: 550px;
+  margin: 50px auto;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-box input {
+  border: none;
+  padding: 8px;
+}
+
+.search-box input:focus {
+  outline: none;
+}
+
+ul.user-lists {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 39px;
+  padding: 5px;
+  width: 200px;
+  height: 300px;
+  overflow: auto;
+  /* border: 1px solid #ccc; */
+  left: 0;
+}
+
+ul.user-lists img {
+  width: 20px;
+}
+
+ul.user-lists li span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+ul.user-lists li {
+  padding: 10px 5px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  border-bottom: none;
+}
+
+ul.user-lists li:hover {
+  background: #ccc;
+}
+
+ul.user-lists li:last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+span.pills-desgn img {
+  width: 20px;
+}
+
+span.pills-desgn {
+  display: flex;
+  gap: 5px;
+  padding: 5px 10px;
+  background: #0065b8;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.outer-pill-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.multi-search-slect-box-inner {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}

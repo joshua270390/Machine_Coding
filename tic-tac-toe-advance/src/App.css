@@ -1,0 +1,42 @@
+.App.board-ttt {
+  max-width: calc(var(--board-size)*100px);
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.status button {
+  margin: 0px;
+  background: #0041d3;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(var(--board-size), 1fr);
+  grid-template-rows: repeat(var(--board-size), 1fr);
+  height: calc(var(--board-size)*100px);
+}
+
+.board button {
+  font-size: 50px;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: transparent;
+}

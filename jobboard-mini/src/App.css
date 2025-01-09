@@ -1,0 +1,74 @@
+.pdts-outer {
+  box-shadow: -1px -1px 5px #ccc;
+  padding: 20px;
+  border-radius: 19px;
+}
+
+.pdts-outer-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+.pdts-name, .pdts-image {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pagination {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.pagination span {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: inline-flex;
+  border: 1px solid #ccc;
+  justify-content: center;
+  align-items: center;
+}
+
+span.activeclass {
+  background: #000;
+  color: #fff;
+}
+
+.post {
+  padding: 20px;
+  box-shadow: -1px -1px 5px #ccc;
+  border-radius: 10px;
+  margin: 15px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.post h2 {
+  margin-top: 0px;
+}
+
+.post h2 a {
+  color: #0041d3;
+  text-decoration: none;
+}
+
+button {
+  background: #0041d3;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+button:disabled{background-color: #ccc;pointer-events: none;}

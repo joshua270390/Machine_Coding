@@ -1,0 +1,118 @@
+[data-theme="light"]{
+  --bg-color: #fff;
+  --text-color: #212529;
+  --main-head: #02126a;
+  --sub-head: #feb423;
+  --icon-color: #feb423;
+}
+
+[data-theme="dark"]{
+   --bg-color: #000;
+   --text-color: #fff;
+   --main-head: #fff;
+   --sub-head: #feb423;
+   --icon-color: #feb423;
+}
+
+.ms-auto.navbar-nav {
+    font-family: 'Ruda', sans-serif;
+    /* color: #000; */
+    width: 80%;
+    justify-content: space-evenly;
+  }
+  
+  .ms-auto.navbar-nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  
+  a#basic-nav-dropdown {
+    padding: 0px;
+    color: var(--text-color);
+  }
+  
+  nav#navbar-id {
+    background: transparent !important;
+  }
+  
+  .ms-auto.navbar-nav a:hover {
+    color: #288feb !important;
+  }
+  
+  .dropdown-menu a {
+    font-size: 16px !important;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: var(--text-color);
+  }
+  
+  .dropdown-menu {
+    padding: 0px !important;
+  }
+  
+  .dropdown-menu {
+    border-top: 3px solid #288feb !important;
+    margin-top: 10px !important;
+  }
+  
+  a.navbar-brand img {
+    height: 75px;
+  }
+  
+  .topbat-cls span:last-child {
+    padding-right: 0px !important;
+  }
+
+  .col.social-icons a svg {
+    position: relative;
+    top: 0px !important;
+}
+
+.switch-mode label {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  /* background: #ccc; */
+  border-radius: 30px;
+  position: relative;
+}
+
+.switch-mode .sliderround {
+  position: absolute;
+  background: #ccc;
+  /* width: 100%; */
+  /* height: 100%; */
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.switch-mode input:checked + .sliderround {
+  background: #0098db;
+}
+
+.switch-mode input:checked + .sliderround::before {
+  transform: translateX(20px);
+  transition: all 0.4s ease-in-out;
+}
+
+.switch-mode .sliderround::before {
+  width: 16px;
+  height: 16px;
+  background:#fff;
+  content:'';
+  position:absolute;
+  left:2px;
+  border-radius:50%;
+  top: 2px;
+  transition: all 0.4s ease-in-out;
+}
+
+.switch-mode input {
+  margin-left: 5px;
+}

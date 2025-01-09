@@ -1,0 +1,30 @@
+:root {
+  --default-color: #ccc;
+  --active-color: #f00;
+}
+
+button.button-type {
+  background: var(--default-color);
+  color: var(--default-color);
+  border: 2px solid var(--default-color);
+  padding: 8px 15px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 30px;
+  margin: 30px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+button.button-type:hover {
+  color: var(--active-color) !important;
+  border: 2px solid var(--active-color) !important;
+}
+
+button.button-type.liked-btn, button.button-type.liked-btn:hover{
+  background-color: var(--active-color) !important;
+  color: #fff !important;
+  border-color: #bd0303 !important;
+}

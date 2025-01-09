@@ -1,0 +1,11 @@
+.file-folder-structure {
+  padding-left: 16px;
+  margin: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-left: 1px solid #868686;
+}
+
+.file-folder-structure ul li {
+  padding: 5px 0;
+}
